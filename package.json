@@ -1,0 +1,22 @@
+{
+  "name": "middleware-promisify",
+  "version": "0.0.1",
+  "description": "Wraps connect-style middleware with handler function",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/tyscorp/middleware-promisify.git"
+  },
+  "author": "Tyson Cleary <amec@tyscorp.net>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tyscorp/middleware-promisify/issues"
+  },
+  "homepage": "https://github.com/tyscorp/middleware-promisify",
+  "dependencies": {
+    "lodash": "^2.4.1"
+  }
+}

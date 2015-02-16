@@ -1,4 +1,10 @@
-var _ = require('lodash');
+var _ = {
+    isFunction: require('lodash.isfunction'),
+    isObject: require('lodash.isobject'),
+    mapValues: require('lodash.mapvalues'),
+    partial: require('lodash.partial')
+};
+
 var Promise = require('bluebird');
 
 var promisify = function (handler, route) {
